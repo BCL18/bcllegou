@@ -1,0 +1,348 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 顶部的搜索栏 */
+ .topsearch{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 50px;
+     background-color: rgba(250,100,80,0.5);
+     /* border-bottom:2px solid #f60 ; */
+     display: none;
+ }
+ .topsearch .searchbox form{
+     float: none;
+     margin:4px auto;
+ }
+
+
+
+ #banner{
+     /* width: 1000px; */
+     height: 400px;
+ }
+
+ #banner .Book-Brief{
+    width: 198px;
+    /* height:436px; */
+    border: solid 1px #cccccc;
+}
+
+#banner .Book-Brief ul li div>img{ 
+    /* margin-left: 22px; */
+    width: 100px;
+    height: 100px;
+}
+
+#banner .Book-Brief ul li> p{
+    color: #4d4d4d;
+    /* font-size: 16px; */
+    /* line-height: 40px; */
+    text-align: center;
+    float: right;
+    width: 98px;
+}
+#banner .Book-Brief ul>li{
+    position: relative;
+}
+/* #banner .Book-Brief ul>li .title{
+    display: none;
+} */
+#banner .Book-Brief ul>li .title.curtitle{
+    /* display: none; */
+}
+#banner .Book-Brief ul li>span{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    width: 20px;
+    height: 20px;
+    background-color: #f60;
+    text-align:center;
+}
+#banner .Book-Brief ul li div p{
+    line-height: 16px;
+    /* width: 126px; */
+    /* padding-right: 3px; */
+    margin-top: 6px;
+        width: 98px;
+        height: 48px;
+        /* border:solid 1px red; */
+    
+    /* height: 115px; */
+    }
+
+    #banner .Book-Brief ul li .books{
+        display: none;
+    }
+    #banner .Book-Brief ul li .con{
+        display: block;
+    }
+
+#banner .Book-Brief ul li{
+    border-bottom:solid 1px #cccccc
+}
+#banner .Book-Brief h3{
+    background-color: #93d46f;
+    height: 30px;
+}
+
+/* 广告------------- */
+
+
+/* #Tesco{
+    box-sizing: border-box;
+} */
+/* 乐购----------- */
+#Tesco .Product-Title h3{
+    width: 225px;
+   line-height: 47px;
+    font-weight: normal;
+    }
+    #Tesco ul{
+        /* width: 1050px; */
+        height: 258px;
+
+    }
+    #Tesco ul li{
+        position: relative;
+        width: 210px;
+    height: 258px;
+    /* border: solid 1px pink; */
+    float:left;
+    }
+
+    #Tesco ul li:nth-child(2),
+    #Tesco ul li:nth-child(7)
+        {
+            margin: 0 38px 0;
+    
+        }
+        
+    #Tesco ul li:nth-child(4),
+    #Tesco ul li:nth-child(9){
+        margin: 0 38px 0 31px;
+
+    }
+    #Tesco ul li img:nth-child(1){
+        margin:7px 30px 0;
+    }
+    #Tesco ul li img:nth-child(2){
+        width: 72px;
+        height: 25px;
+        position: absolute;
+        top: 157px;
+        left: 0px;
+
+    }
+    #Tesco ul li .price p{
+        /* margin:30px 0 10px; */
+        line-height: 22px;
+    }
+    #Tesco ul li .price span img{
+        position: absolute;
+        top: 210px;
+        left: 50px;
+        margin: 0;
+
+}
+/* 乐购·图书折扣区-------------------------- */
+#New-shelves{
+    height:540px;
+    /* border:dashed 1px orange; */
+}
+
+#New-shelves .Product-Title{
+    width: 905px;
+
+}
+#New-shelves .Book-List{
+    width:901px;
+    height: 500px;
+    border:solid 2px #cccccc;
+}
+
+/* #New-shelves ul:last-child{
+    width: 284px;
+    height: 500px;
+    border:dashed 1px orange;
+} */
+
+#New-shelves .Book-List>li{
+    width: 170px;
+    height: 220px;
+    /* border:dashed 1px orange; */
+    margin-left: 10px;
+    float: left;
+}
+#New-shelves .Book-List>li img{
+    margin:0 10px 0;
+}
+#New-shelves .Book-List>li>p{
+    line-height: 22px;
+}
+#New-shelves .Book-List li:nth-child(n+1):nth-child(-n+5){
+    margin:18px 0 24px 10px;
+}
+
+/* 新书上架左边完成----- */
+
+/* 新书上架右边边开始----- */
+#New-shelves .Book-Brief{
+    width: 284px;
+    height: 500px;
+    border: solid 1px #cccccc;
+}
+
+#New-shelves .Book-Brief ul{
+    margin-left: 22px;
+}
+
+#New-shelves .Book-Brief ul li> p{
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+#New-shelves .Book-Brief ul>li{
+    position: relative;
+}
+/* #New-shelves .Book-Brief ul>li .title{
+    display: none;
+} */
+#New-shelves .Book-Brief ul>li .title.curtitle{
+    display: none;
+}
+#New-shelves .Book-Brief ul li>span{
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+#New-shelves .Book-Brief ul li div p{
+    line-height: 20px;
+    width: 126px;
+    padding-right: 3px;
+    /* height: 115px; */
+    }
+
+    #New-shelves .Book-Brief ul li .books{
+        display: none;
+    }
+    #New-shelves .Book-Brief ul li .con{
+        display: block;
+    }
+
+#New-shelves .Book-Brief h3{
+    margin:10px 0 5px 0;
+}
+#New-shelves .Book-Brief ul li{
+    border-bottom:solid 1px #cccccc
+}
+/* 新书上架结束------------------------------------ */
+
+/* 独家提供 */
+/* 头部 */
+#Exclusive-offer{
+    height: 580px;
+}
+#Exclusive-offer ul li{
+    float:left;
+    width:98px;
+    height:34px;
+    font-weight: normal;
+    /* text-align: center; */
+}
+#Exclusive-offer ul li a{
+    color: #333333;
+}
+#Exclusive-offer ul li.kinetic{
+    background-color: #f60;
+}
+/* 头部结束--- */
+
+/* 左边图书列表 */
+
+#Exclusive-offer .Book-classification{
+    height:518px;
+    margin: 16px 0 0 34px;
+    border-bottom: #cccccc solid 1px;
+}
+
+#Exclusive-offer .Book-classification>li{
+    width: 160px;
+    height: 220px;
+    /* border:solid 1px orange; */
+    padding-left: 10px;
+    margin-right: 22px;
+    margin-bottom:24px;
+    /* float: left; */
+}
+#Exclusive-offer .Book-classification>li img{
+    /* margin-left:10px; */
+}
+#Exclusive-offer .Book-classification>li p{
+    line-height: 22px;
+}
+
+/* 猜你喜欢 */
+#Guessyoulikeit{
+    position:relative;
+    height:544px;
+    /* border-bottom: solid 1px #cccccc; */
+}
+#Guessyoulikeit .Product-Title div img{
+    position: absolute;
+    top: 12px;
+    right: 55px;
+}
+#Guessyoulikeit ul li{
+    float: left;
+    width: 160px;
+    padding-left: 10px;
+    margin-right: 22px;
+    margin-bottom:24px;
+}
+#Guessyoulikeit .Book-classification{
+    height: 480px;
+    border-bottom: solid 1px #cccccc;
+    margin: 16px 0 0 34px;
+}
+/* 人文社科精选 */
+#Book-Selection{
+    height: 114px;
+    margin-bottom: 15px;
+}
+#Book-Selection ul li{
+    width: 200px;
+    height: 114px;
+    /* border: 1px dashed pink; */
+    float: left;
+}
+#Book-Selection ul li div span{
+    width: 100px;
+    height: 18px;
+    display: block;
+    border-radius: 10px;
+    background-color: #ff2c20;
+    text-align: center;
+    color: #fff;
+}
+#Book-Selection ul li div p{
+    line-height: 22px;
+}
+#Book-Selection ul li img{
+    width: 65px;
+    height: 80px;
+    float: right;
+    margin-top:17px
+}
+#Book-Selection ul li div{
+    margin: 10px;
+}
+/* 人文社科精选结束---------- */

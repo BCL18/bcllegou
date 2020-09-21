@@ -1,0 +1,545 @@
+
+/* #recommend .Product-Title{
+    margin-top: 20px;
+    border-bottom: solid 6px #f60;
+} */
+#recommend .re-con{
+    width: 1188px;
+    height: 500px;
+    margin: 0 auto;
+    border: solid red 1px;
+}
+#recommend .re-con ul>li{
+    width: 198px;
+    height: 250px;
+    border-right: solid 1px #f60;
+    border-bottom: solid 1px #f60;
+    float:left;
+    box-sizing: border-box;
+    }
+    #recommend .re-con ul li p{
+    line-height: 22px;
+    
+    }
+/* 今日推荐结束------------------ */
+
+
+/* 电子书----- */
+#ebook{
+    margin-top: 40px;
+    width: 1200px;
+    height: 480px;
+    /* border: solid 1px red; */
+}
+#ebook .Product-Title{
+    width: 904px;
+}
+#ebook .List-books>ul{
+    /* width: 238px; */
+    /* height: 150px; */
+    padding-left: 4px;
+    margin-top: 9px;
+}
+
+#ebook .List-books>ul>li{
+    width: 78px;
+    line-height: 34px;
+    float: left;
+}
+#ebook .List-books>ul>li>a{
+    color: #333333;
+}
+
+#ebook .Product-Title>ul>li{
+    width: 98px;
+    line-height: 34px;
+
+}
+#ebook .Product-Title>ul>li.active{
+    background-color: #f60;
+    color: #fff;
+}
+
+#ebook .Tab-Control{
+    display: none;
+}
+#ebook .Tab-Control.current{
+    display: block;
+}
+
+#ebook .List-books{
+    width: 240px;
+    height: 436px;
+    /* border: solid 1px red; */
+    background-color: #f9f9f9;
+}
+/* 左边样式---------- */
+#ebook .BookShow{
+    width: 666px;
+    height: 436px;
+    /* border: solid 1px red; */
+}
+#ebook .BookShow>ul>li{
+    width: 164px;
+    height: 217px;
+    border: solid 1px #cccccc;
+    float: left;
+}
+#ebook .BookShow>ul>li:first-child{
+    width: 330px;
+}
+/* 左中完成---------- */
+
+
+/* 新书上架右边边开始----- */
+#ebook .Book-Brief{
+    width: 284px;
+    height: 500px;
+    border: solid 1px #cccccc;
+}
+
+#ebook .Book-Brief ul{
+    margin-left: 22px;
+}
+
+#ebook .Book-Brief ul li> p{
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+#ebook .Book-Brief ul>li{
+    position: relative;
+}
+/* #ebook .Book-Brief ul>li .title{
+    display: none;
+} */
+#ebook .Book-Brief ul>li .title.curtitle{
+    display: none;
+}
+#ebook .Book-Brief ul li>span{
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+#ebook .Book-Brief ul li div p{
+    line-height: 20px;
+    width: 126px;
+    padding-right: 3px;
+    /* height: 115px; */
+    }
+
+    #ebook .Book-Brief ul li .books{
+        display: none;
+    }
+    #ebook .Book-Brief ul li .con{
+        display: block;
+    }
+
+#ebook .Book-Brief h3{
+    margin:10px 0 5px 0;
+}
+#ebook .Book-Brief ul li{
+    border-bottom:solid 1px #cccccc
+}
+
+
+/* 新书上架左边完成----- */
+/* 右边新书畅销榜结束----------*/
+
+/* 服装 */
+#cloth{
+    /* height: 604px; */
+    /* border:1px solid green; */
+    /* font-family: SimHei; */
+    margin-top: 40px;
+}
+.Product-Title>ul{
+    margin-right: 15px;
+}
+
+.Product-Title>ul>li{
+    width: 98px;
+    line-height: 34px;
+    float: left;
+}
+.Product-Title>ul>li.Tab-head{
+    background-color: #f60;
+    color: #fff;
+}
+.Tab-Body{
+    display: none;
+}
+.Tab-Body.Mobile-body{
+    display: block;
+}
+
+
+
+
+/* 服装的左边部分 */
+.Clothing-List>ul>li{
+    width: 78px;
+    line-height: 34px;
+    float: left;
+}
+
+.Clothing-List>ul>li a{
+    color: #333333;
+}
+
+.Clothing-List>ul{
+    padding-left: 4px;
+    margin-top: 9px;
+}
+
+.advertisement .lunbo{
+    height: 340px;
+    /* border-bottom: dashed 1px green; */
+    
+}
+
+
+
+.Clothing-List{
+    width: 240px;
+    height: 500px;
+    /* border: solid 1px greenyellow; */
+}
+
+
+.advertisement{
+    width: 426px;
+    height: 500px;
+    /* border: solid 1px greenyellow; */
+}
+
+.advertisement img{
+    width: 426px;
+}
+
+.rbox{
+    width: 532px;
+    height: 500px;
+    /* border: solid 1px greenyellow; */
+}
+.rbox li{
+    float: left;
+    border-bottom: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    width: 176px;
+    /* height: 62px; */
+}
+
+.logo{
+    width: 1152px;
+    height: 50px;
+    margin: 10px auto 0;
+}
+.logo ul li{
+    width: 128px;
+    float: left;
+    text-align: center;
+}
+.logo ul li img{
+    width: 80px;
+    height: 50px;
+    
+}
+/* 童装 户外运动--------------------- */
+
+/* 家居日用 */
+#house{
+    /* height: 544px; */
+    /* border: solid 1px green; */
+}
+#house .Household-use{
+    width: 487px;
+    height: 500px;
+    /* border: solid 1px green; */
+}
+#house ul{
+    width: 712px;
+    height: 500px;
+    /* border: solid 1px pink; */
+}
+#house ul>li{
+    width: 178px;
+    height: 340px;
+    border-right:1px solid #cccccc;
+    border-bottom: solid 1px #cccccc;
+    float:left;
+    box-sizing: border-box;
+   
+
+}
+#house ul>li:nth-child(1),
+#house ul>li:nth-child(2),
+#house ul>li:nth-child(3),
+#house ul>li:nth-child(4){
+    padding-top: 25px;
+}
+#house ul>li:nth-child(5),
+#house ul>li:nth-child(6),
+#house ul>li:nth-child(7),
+#house ul>li:nth-child(8){
+    height: 160px;
+}
+
+/* 推广列表-- */
+
+#spread{
+    /* border: solid 1px black; */
+    height: 662px;
+}
+#spread .Promotion-List{
+    height: 613px;
+    width: 1172px;
+    /* border: dashed 1px greenyellow; */
+    margin: 10px auto 0;
+}
+#spread .Promotion-List ul>li{
+    width: 214px;
+    height: 300px;
+    /* background-color: pink; */
+    float: left;
+    margin:0 0 13px;
+    /* text-align: center; */
+
+}
+
+/* #spread .Promotion-List ul>li.Moving-bg{
+    background-color: #f2f2f2;
+} */
+#spread .Promotion-List ul>li:nth-child(2),
+#spread .Promotion-List ul>li:nth-child(4),
+#spread .Promotion-List ul>li:nth-child(7),
+#spread .Promotion-List ul>li:nth-child(9){
+margin: 0 25px 0;
+}
+#spread .Promotion-List ul li>div{
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 0 31px;
+    color: #333333;
+}
+#spread .Promotion-List ul li p{
+    margin-left: 31px;
+}
+#spread .Promotion-List ul li p>i{
+    font-style: normal;
+    color: red;
+}
+#spread .Promotion-List ul li p:last-child{
+    position: relative;
+    text-indent: 24px;
+}
+#spread .Promotion-List ul li p:last-child span{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: block;
+    width:24px;
+    height: 17px;
+    background:url(../img/index27_14.jpg) no-repeat -4px -4px;
+}
+#spread .Promotion-List ul>li.Moving-bg{
+    background-color: #f2f2f2;
+}
+/* 推广商品结束-------------------------------------------------- */
+
+/* 尾部- */
+/* 第一部分 */
+
+#rump{
+    position: relative;
+}
+#rump .box{
+    margin-top: 26px;
+    width: 100%;
+    height:100px;
+    background-color: #f2f2f2;
+    border-top: 6px #f60 solid;
+}
+#rump .box .icon{
+	width: 864px;
+    height: 50px;
+    /* border: solid 1px pink; */
+    margin:32px auto 18px;
+}
+#rump ul>li{
+    width: 126px;
+    float:left;
+    
+}
+#rump ul>li:nth-child(2){
+    margin: 0 120px 0;
+}
+#rump ul>li:nth-child(3){
+    margin-right: 118px;
+}
+/* 第一部分 */
+
+/* 第二部分 */
+#List-services{
+    width:692px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin-top: 46px;
+    /* box-sizing: border-box; */
+}
+#List-services ul{
+    float:left;
+    /* line-height:28px; */
+}
+#List-services ul li{
+    font-size: 16px;
+}
+#List-services ul li:first-child{
+    font-size: 18px;
+}
+#List-services ul:nth-child(1){
+    width: 72px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(2){
+    width: 90px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(3){
+    width: 108px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(4){
+    width: 126px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(5){
+    width: 90px;
+    height: 100px;
+    /* border: solid 1px pink; */
+}
+#List-services ul>li:nth-child(2n){
+    margin: 8px 0;
+}
+/* 第二部分----------- */
+
+
+footer .fot-link a{
+    float: left;
+    color: #333;
+    display:block;
+    width: 99px;
+    height: 15px;
+    text-align: center;
+}
+footer .fot-link a:nth-child(1){
+    margin-left: 154px;
+}
+footer .fot-link a:nth-child(2){
+    width: 198px;
+}
+footer .fot-link a:not(:last-child){
+    border-right: 1px solid #000;
+}
+
+#rump .footer-logo img{
+    position: absolute;
+    top: 50%;
+    margin-top: -43px;
+    right:50%;
+    margin-right:-560px;
+}
+/* 尾部结束------- */
+
+#Rolling-floor{
+    width: 40px;
+    height: 200px;
+    margin-top: -100px;
+    border: solid 1px pink;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -670px;
+    
+}
+/* 尾部结束------- */
+#Rolling-floor ul{
+    
+    background-color:#f2f2f2;
+    
+}
+#Rolling-floor ul>li{
+   width: 0px;
+    height: 40px;
+    line-height: 40px;
+    /* border: solid 1px greenyellow; */
+    background:url(../img/fix_box_icon_160622.png) no-repeat 0 0;
+    padding-left:40px;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+}
+#Rolling-floor ul>li:nth-child(2){
+    background-position-y: -80px;
+}
+#Rolling-floor ul>li:nth-child(3){
+    background-position-y: -160px;
+}
+#Rolling-floor ul>li:nth-child(4){
+    background-position-y: -200px;
+}
+#Rolling-floor ul>li:nth-child(5){
+    background-position-y: -320px;
+}
+
+/* 领券中心-- */
+#Coupon-Centre{
+    width: 40px;
+    height: 184px;
+    /* border: solid 1px pink; */
+    position: fixed;
+    top: 214px;
+    right: 0;
+}
+
+#Coupon-Centre ul li{
+    height: 60px;
+    /* border: pink 1px dashed; */
+    position: relative;
+    
+}
+#Coupon-Centre ul li:nth-child(1),
+#Coupon-Centre ul li:nth-child(3){
+    height:40px;
+    width: 40px;
+}
+#Coupon-Centre ul li:nth-child(2){
+    height: 100px;
+}
+
+#Coupon-Centre ul li div{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: -1;
+}
+
+/* 回到顶部 */
+#Returntop{
+    width: 30px;
+    height: 50px;
+    background-color: #999999;
+    border: dashed 1px black;
+    position: fixed;
+    bottom:432px;
+    right: 330px;
+}
+
+

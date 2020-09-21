@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333333;
+}
+/* 版心 */
+.lg-container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+.fs24{
+    font-size: 24px;
+}
+.fs28{
+    font-size: 28px;
+}
+.fs18{
+    font-size: 18px;
+}
+.crf60{
+color: #f60;
+}
+.crred{
+    color: red;
+}
+.cr3{
+    color: #333333;
+}
+.cr4{
+    color: #468bfd;
+}
+.crb3{
+    color: #b3b3b3;
+}
+.cr80{
+    color: #808080;
+}
+
+.crc0{
+    color: #c0c0c0;
+}
+.tc{
+    text-align: center;
+} 
+
+.mgr280{
+    margin-right:280px;
+}
+.mgr70{
+margin-top:70px;
+}
+
+.mgr36{
+    margin-top: 36px;
+}
+.mgl10{
+    margin-left: 10px;
+}
+.mgr30{
+    margin-top: 30px;
+}
+.mgrt52{
+    margin-top:52px;
+}
+.mgrtop{
+    margin-top: 23px;
+}
+.mgt25{
+    margin-top: 25px;
+}
+.mt48{
+    margin-top:48px;
+}
+.mt40{
+    margin-top:40px;
+}
+.margbt{
+    margin-bottom:50px;
+}
+
+.lght{
+    line-height: 34px;
+}
+.pdl3{
+    padding-left: 4px;
+}
+
+.lght30{
+    line-height:30px;
+}
+.bgcr{
+    background-color: #f60;
+}
+
+
+.com-title{
+        line-height: 34px;
+        border-bottom: solid 6px #f60;
+}
+
+.cur{
+    background-color: #f60;
+    color: #ffff;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.bor{
+    border: pink dashed 1px;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom:1 ;
+}
+.nor{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+
+/* 头部 */
+header .searchbox input{
+    padding: 0;
+    margin: 0;
+    /* 取消input的默认框 */
+    outline: none;
+    border: none;
+}
+
+header .searchbox{
+    margin-top: 4px;
+}
+
+header{
+    height: 112px;
+    background-color: pink;
+}
+
+header .top{
+    height: 28px;
+    line-height: 28px;
+    background-color: #000000;
+    
+}
+
+
+
+
+header .top .txturl{
+    color:#e6e6e6;
+    font-size: 18px;
+    text-indent: 204px;
+}
+header .top .logintxtbox{
+    color: #6f6f6f;
+}
+header .top .logintxtbox a{
+    color:#f60;
+}
+header .top div:first-child{
+    position: relative;
+}
+header .top h1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 0;
+
+}
+
+
+#banner{
+    height:430px;
+    background-color: sandybrown;
+}
+/* 搜索框 */
+form{
+    float:right;
+    width: 444px;
+    /* border: solid 1px #f60; */
+    
+    /* margin: 7px auto; */
+    
+}
+
+
+ form input:first-child{
+    width: 390px;
+    height: 36px;
+    /* 文本缩进 */
+    text-indent: 6px;
+}
+
+ form input:last-child{
+    height: 38px;
+    width: 50px;
+    background:url(../img/bgicon.png)no-repeat 0 0;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+}
+
+
+/* 搜索框结束 */
+
+/* 购物车 */
+header .searchbox #spty{
+    widows: 200px;
+    line-height: 38px;
+    background-color: #f60;
+    margin-left:36px;
+}
+
+header .searchbox #spty a:first-child{
+    width: 100px;
+    color: #ffff;
+    background:url(../img/bgicon.png)no-repeat 0px -39px #f60;
+    text-indent: 36px;
+   
+}
+
+header .searchbox #spty a:last-child{
+    width: 100px;
+    color: #808080;
+    background-color: #ededed;
+    text-align: center;
+}
+
+header .searchbox #spty a:first-child i{
+    /* 取消i的倾斜 */
+    font-style: normal;
+    font-size: 16px;
+}
+/* 购物车结束 */
+
+/* 导航栏 */
+
+header .lg-container .Navigation-lists{
+    list-style: none;
+    margin-right: 100px;
+    padding-top: 22px;
+    float: right;
+}
+
+header .lg-container .Navigation-lists>li{
+    float: left;
+    padding-left:34px;
+    /* padding: 22px; */
+}
+header .lg-container .Navigation-lists li>a{
+    font-size: 16px;
+    color: #323232;
+}
+/* --------------------- */
+/* 二级菜单 */
+#banner{
+    width: 1200px;
+    height:420px;
+    border: dashed 1px pink;
+}
+
+#banner .menu{
+    width: 200px;
+    height: 420px;
+    background-color: pink;
+    /* padding-left:20px; */
+    position: relative;
+    box-sizing: border-box;
+}
+/* 轮播 */
+#banner .slidebox{
+    width: 1000px;
+    height: 420px;
+    background-color: teal;
+}
+
+#banner .menu>li{
+    line-height: 28px;
+}
+
+#banner .menu>li:hover .submenu{
+display: block;
+}
+
+#banner li>.submenu{
+    position: absolute;
+    z-index: 50;
+    width: 580px;
+    height: 420px;
+    background-color: #ffff;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: none;
+    border:solid 1px #f60;
+}
+
+#banner .menu li p:hover{
+    width: 180px;
+    background-color: #ffff;
+    border: solid 1px #f60;
+    border-right: 0;
+}
+
+#banner .menu li p{
+    position: relative;
+    z-index: 60;
+    padding-left: 20px;
+    border: solid 1px transparent;
+}
+#banner .menu li p>a{
+    color: #1a1a1a;
+    font-family: MicrosoftYa;
+}
+
+#banner .menu li:hover.submenu{
+    display: block;
+}
+
+
+
+
+/* 今日推荐 */
+.crred{
+    color: red;
+}
+
+.tindent10{
+    text-indent: 10px;
+}
+/* 尾部------------------------------------------------------------------- */
+
+/* 尾部- */
+/* 第一部分 */
+
+#rump{
+    position: relative;
+}
+#rump .box{
+    margin-top: 26px;
+    width: 100%;
+    height:100px;
+    background-color: #f2f2f2;
+    border-top: 6px #f60 solid;
+}
+#rump .box .icon{
+	width: 864px;
+    height: 50px;
+    /* border: solid 1px pink; */
+    margin:32px auto 18px;
+}
+#rump ul>li{
+    width: 126px;
+    float:left;
+    
+}
+#rump ul>li:nth-child(2){
+    margin: 0 120px 0;
+}
+#rump ul>li:nth-child(3){
+    margin-right: 118px;
+}
+/* 第一部分 */
+
+/* 第二部分 */
+#List-services{
+    width:692px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin-top: 46px;
+    /* box-sizing: border-box; */
+}
+#List-services ul{
+    float:left;
+    /* line-height:28px; */
+}
+#List-services ul li{
+    font-size: 16px;
+}
+#List-services ul li:first-child{
+    font-size: 18px;
+}
+#List-services ul:nth-child(1){
+    width: 72px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(2){
+    width: 90px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(3){
+    width: 108px;
+    height: 130px;
+    /* border: solid 1px pink; */
+}
+#List-services ul:nth-child(4){
+    width: 126px;
+    height: 130px;
+    /* border: solid 1px pink; */
+    margin: 0 49px 0 49px;
+}
+#List-services ul:nth-child(5){
+    width: 90px;
+    height: 100px;
+    /* border: solid 1px pink; */
+}
+#List-services ul>li:nth-child(2n){
+    margin: 8px 0;
+}
+/* 第二部分----------- */
+
+
+footer .fot-link a{
+    float: left;
+    color: #333;
+    display:block;
+    width: 99px;
+    height: 15px;
+    text-align: center;
+}
+footer .fot-link a:nth-child(1){
+    margin-left: 154px;
+}
+footer .fot-link a:nth-child(2){
+    width: 198px;
+}
+footer .fot-link a:not(:last-child){
+    border-right: 1px solid #000;
+}
+
+#rump .footer-logo img{
+    position: absolute;
+    top: 50%;
+    margin-top: -43px;
+    right:50%;
+    margin-right:-560px;
+}
+/* 尾部结束------- */
+
+#Rolling-floor{
+    width: 40px;
+    height: 200px;
+    margin-top: -100px;
+    border: solid 1px pink;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -670px;
+    
+}
+/* 尾部结束------- */
+#Rolling-floor ul{
+    
+    background-color:#f2f2f2;
+    
+}
+#Rolling-floor ul>li{
+   width: 0px;
+    height: 40px;
+    line-height: 40px;
+    /* border: solid 1px greenyellow; */
+    background:url(../img/fix_box_icon_160622.png) no-repeat 0 0;
+    padding-left:40px;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+}
+#Rolling-floor ul>li:nth-child(2){
+    background-position-y: -80px;
+}
+#Rolling-floor ul>li:nth-child(3){
+    background-position-y: -160px;
+}
+#Rolling-floor ul>li:nth-child(4){
+    background-position-y: -200px;
+}
+#Rolling-floor ul>li:nth-child(5){
+    background-position-y: -320px;
+}
+
